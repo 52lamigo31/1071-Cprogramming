@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+
+{
+float f,c;
+printf("輸入攝氏溫度");
+scanf("%f", &c);
+f=(9.0*c)/5.0+32.0;
+printf("\nEnter temperature in C: %.1f\n%.1f C = %.1f F\n\n",c,c,f);
+printf("Enter temperature in F: %.1f\n%.1f F = %.1f C",f,f,c);
+}
+
